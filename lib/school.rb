@@ -22,10 +22,14 @@ def grade(grade)
 end
 
 def sort
+<<<<<<< HEAD
 roster.each do |grade, name|
 roster[grade] = name.sort
   
 end
 end
+=======
+roster[grade].sort
+>>>>>>> b2fa69649013d682fd7535bd5d248cf0dde2aa51
 
 end
